@@ -102,6 +102,17 @@ p:last-child {
   line-height: 1.2;
   text-decoration: none;
 }
+.logo-basement {
+  margin-bottom: 20px;
+  display: block;
+  color: var(--blue-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
 .logo-black {
   color: var(--primary-color);
 }
@@ -201,6 +212,13 @@ p:last-child {
   background-color: #f5f4fa;
 }
 .team-name {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-right: 59px;
+  padding-left: 59px;
+  text-align: center;
+  margin-bottom: 0;
+
   color: var(--primary-color);
   font-weight: 500;
   font-size: 16px;
@@ -208,6 +226,9 @@ p:last-child {
   line-height: 1.2;
 }
 .team-text {
+  padding-bottom: 30px;
+  text-align: center;
+
   color: var(--secondary-color);
   font-size: 16px;
   letter-spacing: 0.03em;
@@ -226,12 +247,23 @@ p:last-child {
   display: flex;
 }
 
+.team-main {
+  background-color: var(--white-color);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 .team-main:not(:last-child) {
   margin-right: 30px;
 }
 .basement {
   background-color: #2f303a;
 }
+.basement-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .adress {
   color: var(--white-color);
   line-height: 1.7;
