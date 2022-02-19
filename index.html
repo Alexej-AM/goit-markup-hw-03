@@ -25,7 +25,7 @@
         <a href="index.html" lang="en" class="logo">Web<span class="logo-black">Studio</span></a>
       
       
-        <ul class="site-nav list">
+        <ul class="site-nav">
           <li class="item"><a class="link" href="index.html">Студия</a></li>
           <li class="item"><a class="link" href="portfolio.html">Портфолио</a></li>
           <li class="item"><a class="link" href="">Контакты</a></li>
@@ -36,7 +36,7 @@
       
       
 
-        <ul class="contacts-nav list">
+        <ul class="contacts-nav">
           <li class="item">
             <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
@@ -50,18 +50,19 @@
 
   <main>
     <!-- HERO -->
-    <section class="hero section">
-      <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
-      <button class="button" type="button">Заказать услугу</button>
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
+        <button class="button" type="button">Заказать услугу</button>
+      </div>
     </section>
 
     <!-- Benefits -->
-    <section class="benefits section">
-      <!-- Добавлен заголовок, при том , что в макете его нет, при помоще CSS он будет скрыт -->
-      <h2 class="visually-hidden">Преимущества нашей компании</h2>
+    <section class="section">
       
-     <div class="container">
-        <ul class="benefits-main list">
+      <div class="container">
+      <h2 class="visually-hidden">Преимущества нашей компании</h2>
+        <ul class="benefits-main">
           <li class="benefits-item">
             <h3 class="benefits-subtitle">Внимание к деталям</h3>
             <p class="benefits-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -86,12 +87,12 @@
 
     </section>
 
+    <!-- Галерея -->
     <section class="gallery section">
 
-      
-     <div class="container">
+      <div class="container">
           <h2 class="gallery-title">Чем мы занимаемся</h2>
-          <ul class="gallery-main list">
+          <ul class="gallery-main">
             <li class="gallery-item"><img src="./images/pic1.jpg" alt="Печатает текст на планете" width="370" height="294"></li>
             <li class="gallery-item"><img src="./images/pic2.jpg" alt="Смотрит в телефон" width="370" height="294"></li>
             <li class="gallery-item"><img src="./images/pic3.jpg" alt="Рисует на планшете" width="370" height="294"></li>
@@ -101,44 +102,49 @@
     <section class="team section">
      <div class="container">
         <h2 class="team-title">Наша команда</h2>
-        <ul class="team-box list">
+        <ul class="team-box">
           <li class="team-main">
             <img src="./images/igor.jpg" alt="Улыбающийся парень в очках" width="270" height="260">
         
-            <h3 class="team-name">Игорь Демьяненко</h3>
-        
-            <p class="team-text" lang="en">Product Designer</p>
+            <div class="team-container">
+              <h3 class="team-name">Игорь Демьяненко</h3>
+              <p class="team-text" lang="en">Product Designer</p>
+            </div>
+
           </li>
           <li class="team-main">
             <img src="./images/olg.jpg" alt="Улыбающияся девушка" width="270" height="260">
-        
+        <div class="team-container">
             <h3 class="team-name">Ольга Репина</h3>
             <p class="team-text" lang="en">Frontend Developer</p>
+            </div>
           </li>
           <li class="team-main">
             <img src="./images/nikolay.jpg" alt="Улыбающийся парень" width="270" height="260">
-        
+        <div class="team-container">
             <h3 class="team-name">Николай Тарасов</h3>
             <p class="team-text" lang="en">Marketing</p>
+            </div>
           </li>
           <li class="team-main">
             <img src="./images/mihail.jpg" alt="Бородатый парень с тату" width="270" height="260">
-        
+        <div class="team-container">
             <h3 class="team-name">Михаил Ермаков</h3>
             <p class="team-text" lang="en">UI Designer</p>
+            </div>
           </li>
         </ul>
      </div>
     </section>
   </main>
   
-  <footer class="basement section-basement">
+  <footer class="basement">
 
    <div class="container">
       <a href="index.html" lang="en" class="logo-basement">Web<span class="logo-white">Studio</span></a>
       
       <address basement-contacts> 
-        <ul class="list">
+        <ul>
           <li class="basement-item"><a class="link adress" href="https://goo.gl/maps/S1K2Xz3BkquAbChR9">г. Киев, пр-т Леси Украинки, 26</a>
           </li>
           <li class="basement-item"><a class="link box" href="mailto:info@example.com">info@example.com</a></li>
